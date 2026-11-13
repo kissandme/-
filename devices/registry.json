@@ -1,0 +1,12 @@
+{
+ "devices": {
+  "dev-d1b6c3f9": {
+   "name": "GDH2606225524",
+   "rater": "未命名",
+   "first_seen": "2026-11-13T19:49:45",
+   "platform": "Windows-11-10.0.26100-SP0",
+   "last_seen": "2026-11-13T19:49:45"
+  }
+ },
+ "limit": 12
+}
