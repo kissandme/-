@@ -2,7 +2,7 @@
  "device_id": "dev-d1b6c3f9",
  "device_name": "GDH2606225524",
  "rater": "未命名",
- "exported_at": "2026-11-13T19:52:58",
+ "exported_at": "2026-11-13T19:54:43",
  "counts": {
   "ratings.jsonl": 57,
   "train_runs.jsonl": 2
