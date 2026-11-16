@@ -2,7 +2,7 @@
  "device_id": "dev-d1b6c3f9",
  "device_name": "GDH2606225524",
  "rater": "基米",
- "exported_at": "2026-11-16T14:21:36",
+ "exported_at": "2026-11-16T14:32:18",
  "counts": {
   "ratings.jsonl": 57,
   "train_runs.jsonl": 2
