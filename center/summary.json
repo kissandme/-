@@ -1,22 +1,23 @@
 {
- "generated_at": "2026-11-16T17:13:31",
+ "generated_at": "2026-11-16T17:24:18",
  "devices": [
   {
    "device_id": "dev-d1b6c3f9",
    "device_name": "GDH2606225524",
-   "exported_at": "2026-11-16T17:13:23",
+   "exported_at": "2026-11-16T17:24:09",
    "counts": {
     "ratings.jsonl": 57,
+    "feedback.jsonl": 1,
     "train_runs.jsonl": 2
    }
   }
  ],
  "totals": {
   "ratings": 56,
-  "feedback": 0,
+  "feedback": 1,
   "train_runs": 2,
   "weight_versions": 0,
-  "excluded_tracks": 0
+  "excluded_tracks": 1
  },
  "levels": {
   "一般": 7,
@@ -28,12 +29,19 @@
   "director": 46,
   "user": 9
  },
- "verdicts": {},
- "top_queries": [],
+ "verdicts": {
+  "不符合情绪": 1
+ },
+ "top_queries": [
+  [
+   "温情",
+   1
+  ]
+ ],
  "by_device": {
   "dev-d1b6c3f9": {
    "ratings": 56,
-   "feedback": 0,
+   "feedback": 1,
    "train": 2
   }
  },
@@ -161,5 +169,7 @@
    "trainable": 54
   }
  },
- "excluded_sample": []
+ "excluded_sample": [
+  "771610cd16a4c934cd193708f8a255be514c2f14"
+ ]
 }
