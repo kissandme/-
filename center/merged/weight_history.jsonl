@@ -1,0 +1,2 @@
+{"ts": "2026-11-18T00:05:44", "version": "learned_feedback_6", "weights": {"direction": 0.29, "fit": 0.05, "energy": 0.05, "struct": 0.04, "soft": 0.14, "verdict": 0.22}, "n": 6, "trigger": "learn", "_device": "dev-d1b6c3f9"}
+{"ts": "2026-11-18T00:06:00", "version": "learned_feedback_7", "weights": {"direction": 0.29, "fit": 0.05, "energy": 0.05, "struct": 0.04, "soft": 0.14, "verdict": 0.24000000000000002}, "n": 7, "trigger": "learn", "_device": "dev-d1b6c3f9"}
