@@ -1,23 +1,24 @@
 {
- "generated_at": "2026-11-17T23:58:36",
+ "generated_at": "2026-11-18T00:09:32",
  "devices": [
   {
    "device_id": "dev-d1b6c3f9",
    "device_name": "GDH2606225524",
-   "exported_at": "2026-11-17T23:58:27",
+   "exported_at": "2026-11-18T00:09:21",
    "counts": {
     "ratings.jsonl": 57,
-    "feedback.jsonl": 1,
+    "feedback.jsonl": 7,
+    "weight_history.jsonl": 2,
     "train_runs.jsonl": 2
    }
   }
  ],
  "totals": {
   "ratings": 56,
-  "feedback": 1,
+  "feedback": 7,
   "train_runs": 2,
-  "weight_versions": 0,
-  "excluded_tracks": 1
+  "weight_versions": 2,
+  "excluded_tracks": 7
  },
  "levels": {
   "一般": 7,
@@ -30,9 +31,13 @@
   "user": 9
  },
  "verdicts": {
-  "不符合情绪": 1
+  "不符合情绪": 7
  },
  "top_queries": [
+  [
+   "壮烈",
+   6
+  ],
   [
    "温情",
    1
@@ -41,11 +46,25 @@
  "by_device": {
   "dev-d1b6c3f9": {
    "ratings": 56,
-   "feedback": 1,
+   "feedback": 7,
    "train": 2
   }
  },
- "latest_weights": null,
+ "latest_weights": {
+  "ts": "2026-11-18T00:06:00",
+  "version": "learned_feedback_7",
+  "weights": {
+   "direction": 0.29,
+   "fit": 0.05,
+   "energy": 0.05,
+   "struct": 0.04,
+   "soft": 0.14,
+   "verdict": 0.24000000000000002
+  },
+  "n": 7,
+  "trigger": "learn",
+  "_device": "dev-d1b6c3f9"
+ },
  "latest_train": {
   "ts": "2026-11-13T19:52:35",
   "model_version": "effect_pct_20261113",
@@ -156,7 +175,38 @@
    "_device": "dev-d1b6c3f9"
   }
  ],
- "recent_weights": [],
+ "recent_weights": [
+  {
+   "ts": "2026-11-18T00:06:00",
+   "version": "learned_feedback_7",
+   "weights": {
+    "direction": 0.29,
+    "fit": 0.05,
+    "energy": 0.05,
+    "struct": 0.04,
+    "soft": 0.14,
+    "verdict": 0.24000000000000002
+   },
+   "n": 7,
+   "trigger": "learn",
+   "_device": "dev-d1b6c3f9"
+  },
+  {
+   "ts": "2026-11-18T00:05:44",
+   "version": "learned_feedback_6",
+   "weights": {
+    "direction": 0.29,
+    "fit": 0.05,
+    "energy": 0.05,
+    "struct": 0.04,
+    "soft": 0.14,
+    "verdict": 0.22
+   },
+   "n": 6,
+   "trigger": "learn",
+   "_device": "dev-d1b6c3f9"
+  }
+ ],
  "fit_models": {
   "dev-d1b6c3f9": {
    "model_version": "effect_pct_20261113",
@@ -170,6 +220,12 @@
   }
  },
  "excluded_sample": [
-  "771610cd16a4c934cd193708f8a255be514c2f14"
+  "1fbf51a6c0596b2c8a5baa80260633a11c8ed5df",
+  "452212429d90a029d0d5c1dec93c1270aa069b9b",
+  "771610cd16a4c934cd193708f8a255be514c2f14",
+  "7b717a41325a0ea1f19341118dcda157900d503a",
+  "c112d36544d85625544c2f5f708e8e2726591ee3",
+  "d9c8beef66baf93f8f3ee20b6303832d9530b06d",
+  "e95de897570be0895948c875ceb4a74843101a67"
  ]
 }
