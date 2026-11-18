@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-18T16:00:36",
+ "generated_at": "2026-11-18T16:11:33",
  "devices": [
   {
    "device_id": "dev-d1b6c3f9",
    "device_name": "GDH2606225524",
-   "exported_at": "2026-11-18T16:00:26",
+   "exported_at": "2026-11-18T16:11:22",
    "counts": {
-    "ratings.jsonl": 58,
+    "ratings.jsonl": 59,
     "feedback.jsonl": 7,
     "weight_history.jsonl": 2,
     "train_runs.jsonl": 2
@@ -14,7 +14,7 @@
   }
  ],
  "totals": {
-  "ratings": 57,
+  "ratings": 58,
   "feedback": 7,
   "train_runs": 2,
   "weight_versions": 2,
@@ -22,14 +22,14 @@
  },
  "levels": {
   "一般": 7,
-  "可复用": 31,
+  "可复用": 32,
   "特定好用": 19
  },
  "raters": {
   "lead": 1,
   "director": 46,
   "user": 9,
-  "基米": 1
+  "基米": 2
  },
  "verdicts": {
   "不符合情绪": 7
@@ -46,7 +46,7 @@
  ],
  "by_device": {
   "dev-d1b6c3f9": {
-   "ratings": 57,
+   "ratings": 58,
    "feedback": 7,
    "train": 2
   }
