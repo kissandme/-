@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-19T12:04:32",
+ "generated_at": "2026-11-19T12:15:26",
  "devices": [
   {
    "device_id": "dev-d1b6c3f9",
    "device_name": "GDH2606225524",
-   "exported_at": "2026-11-19T12:04:21",
+   "exported_at": "2026-11-19T12:15:16",
    "counts": {
     "ratings.jsonl": 59,
     "feedback.jsonl": 7,
